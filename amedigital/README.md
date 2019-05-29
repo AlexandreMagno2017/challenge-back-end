@@ -5,9 +5,14 @@
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 
 ### Rodar script de criação de base
-
+script_amedigital.sql
 
 ### List api's:
+
+* Method : POST
+* http://localhost:8080/apis/planets
+* Body:
+{"name" : "xyz", "climate" : "temperate", "terrain": "grasslands, mountains" }
 
 * Method : GET
 * http://localhost:8080/apis/planets
@@ -22,7 +27,8 @@
 	    "films": null,
 	    "totalFilms": 2
 	}
-	
+
+* Method : GET
 * http://localhost:8080/apis/planets?name=Eriadu
 {
     "id": 21,
@@ -33,7 +39,7 @@
     "totalFilms": 0
 }
 
-
+* Method : GET
 * http://localhost:8080/apis/planets/database
 
 [
@@ -53,6 +59,7 @@
         "films": null,
         ...
 
+* Method : GET
 * http://localhost:8080/apis/planets/starwarsapi
 
 [
